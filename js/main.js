@@ -7,6 +7,6 @@
     document.body.append(div);
   }
 
-  let nombreUsuario = prompt("Cual es tu nombre: ");
+  let nombreUsuario = prompt("Cual es tu nombre de developer: ");
   saludar(nombreUsuario);
 })();
