@@ -1,3 +1,5 @@
+import solicitarNombres from "./fetch.js";
+
 (function () {
   function saludar(nombre) {
     let div = document.createElement("div");
@@ -9,4 +11,5 @@
 
   let nombreUsuario = prompt("Cual es tu nombre de developer: ");
   saludar(nombreUsuario);
+  solicitarNombres();
 })();
