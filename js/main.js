@@ -1,4 +1,5 @@
 import solicitarNombres from "./fetch.js";
+import saludito from "./prueba";
 
 (function () {
   function saludar(nombre) {
@@ -12,4 +13,5 @@ import solicitarNombres from "./fetch.js";
   let nombreUsuario = prompt("Cual es tu nombre de developer: ");
   saludar(nombreUsuario);
   solicitarNombres();
+  saludito("miguel");
 })();
